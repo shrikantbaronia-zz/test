@@ -20,7 +20,7 @@ public class HelloWorldTest {
 	  @Test(expected = IllegalArgumentException.class)
 	  public void testExceptionIsThrown() {
 	    HelloWorld tester = new HelloWorld();
-	    tester.multiply(200, 5);
+	    tester.multiply(1000, 5);
 	  }
 
 	  @Test
