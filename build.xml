@@ -49,7 +49,7 @@
         </junit>
     </target>
     <target name="HelloWorld">
-        <java classname="HelloWorld" failonerror="true" fork="yes">
+        <java classname="com.junit.first.HelloWorld" failonerror="true" fork="yes">
             <classpath refid="hello world.classpath"/>
         </java>
     </target>
